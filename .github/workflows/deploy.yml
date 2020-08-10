@@ -36,7 +36,7 @@ jobs:
         with:
           find: "PLACEHOLDER_IMAGE_LOCATION"
           replace:  xrouterserviceexplorer/xrouter.api:${{ github.sha }}
-          include: "deployment.yml" 
+          include: "./XRouter.Api/deployment.yml" 
         
 
       - name: Deploy Docker Image
