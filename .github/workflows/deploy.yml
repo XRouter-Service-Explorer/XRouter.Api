@@ -43,7 +43,7 @@ jobs:
           find: BLOCKNET_DAEMON_RPCUSERNAME
           replace: ${{ secrets.BLOCKNET_DAEMON_RPCUSERNAME }}
           
-      - name: Find and Replace deployment rpc username
+      - name: Find and Replace deployment rpc passowrd
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: BLOCKNET_DAEMON_RPCPASSWORD
